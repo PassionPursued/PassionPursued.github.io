@@ -17,6 +17,7 @@
             background-color: #1155cc;
             position: fixed;
             top: 0;
+            z-index: 1;
             width: 100%;
             box-shadow: 0px -2.5px 10px 5px #111;
         }
@@ -45,8 +46,11 @@
         .Main {
             padding-top: 3%;
             padding-left: 1%;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-        }
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 120%;
+            padding-left: 300px;
+            padding-right: 7%;
+            }
 
         h2 {
             color: #303030;
@@ -63,6 +67,37 @@
             width: 100%;
             border-width: 0px;
         }
+
+        .sidenav {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            z-index: 0;
+            top: 3em;
+            left: 0;
+            background-color: white;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            box-shadow: 0px 10.5px 15px 0px #111;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        hr{
+            width: 85%;
+        }
+
+            .sidenav a {
+                padding: 6px 8px 6px 16px;
+                text-decoration: none;
+                font-size: 15px;
+                color: #818181;
+                display: block;
+            }
+
+                .sidenav a:hover {
+                    color: #f1f1f1;
+                    background-color: #aaa;
+                }
 
         table, td, tr {
             border-color: grey;
@@ -86,21 +121,27 @@
         <li class="li"><a href="HTML.html">HTML </a></li>
         <li class="li"><a href="CSS.html">CSS </a></li>
         <li class="li"><a href="JavaScript.html">JavaScript </a></li>
+        <li class="li"><a href="Easter.html"></a></li>
+        <li class="li"><a href="Resources.html">More resources </a></li>
+        <li class="li"><a href="Tips.html">Tips </a></li>
     </ul>
     <div class="sidenav">
-        <p style="padding-left:10%;"> HTML </p>
+        <p style="padding-left:10%;"> JavaScript </p>
         <hr />
-        <a href="HTML.html">Introduction & Basics</a>
-        <a href="HTML(2).html">HTML Attributes</a>
-        <a href="HTML(3).html">HTML Formatting</a>
-        <a href="HTML(4).html">HTML Tables & Lists</a>
-        <a href="HTML(5).html">HTML Divs</a>
-        <a href="HTML(6).html">HTML iFrames</a>
-        <a href="HTML(7).html">Basic CSS</a>
-        <a href="HTML(8).html">HTML Class & Id</a>
-        <a href="HTML(9).html">HTML Semantic Elements</a>
-        <a href="HTML(10).html">HTML Forms</a>
-
+        <a href="JavaScript.html">Introduction & Basics</a>
+        <a href="JavaScript (2).html">JavaScript Outputs</a>
+        <a href="JavaScript (3).html">Variables and Operations</a>
+        <a href="JavaScript (4).html">Conditions</a>
+        <a href="JavaScript (5).html">Loops</a>
+        <a href="JavaScript (6).html">Functions</a>
+        <a href="JavaScript (7).html">Var, Let and Const</a>
+        <a href="JavaScript Sort.html">Sorting Algorithm</a>
+        <a href="JavaScript (8).html">Objects</a>
+        <a href="JavaScript (9).html">Classes</a>
+        <a href="JavaScript (10).html">Switch Statements</a>
+        <a href="JavaScript (11).html">Regular Expression</a>
+        <a href="JavaScript (12).html">Canvas</a>
+        <a href="JavaScript (13).html">Bouncy Ball</a>
     </div>
     <div class="Main">
         <h1>Functions</h1>

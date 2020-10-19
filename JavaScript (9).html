@@ -17,6 +17,7 @@
             background-color: #1155cc;
             position: fixed;
             top: 0;
+            z-index: 1;
             width: 100%;
             box-shadow: 0px -2.5px 10px 5px #111;
         }
@@ -79,22 +80,30 @@
             height: 2em;
         }
         .Main {
-            padding-left: 230px;;
-        }
+            padding-top: 3%;
+            padding-left: 1%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 120%;
+            padding-left: 300px;
+            padding-right: 7%;
+            }
 
-        .sidenav {
+            .sidenav {
             height: 100%;
             width: 200px;
             position: fixed;
             z-index: 0;
-            top: 6.5%;
+            top: 3em;
             left: 0;
             background-color: white;
             overflow-x: hidden;
-            padding-top: 20px;
             overflow-y: scroll;
             box-shadow: 0px 10.5px 15px 0px #111;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        hr{
+            width: 85%;
         }
 
             .sidenav a {
@@ -118,9 +127,12 @@
         <li class="li"><a href="HTML.html">HTML </a></li>
         <li class="li"><a href="CSS.html">CSS </a></li>
         <li class="li"><a href="JavaScript.html">JavaScript </a></li>
+        <li class="li"><a href="Easter.html"></a></li>
+        <li class="li"><a href="Resources.html">More resources </a></li>
+        <li class="li"><a href="Tips.html">Tips </a></li>
     </ul>
     <div class="sidenav">
-        <p style="padding-left:10%;"> HTML </p>
+        <p style="padding-left:10%;"> JavaScript </p>
         <hr />
         <a href="JavaScript.html">Introduction & Basics</a>
         <a href="JavaScript (2).html">JavaScript Outputs</a>
