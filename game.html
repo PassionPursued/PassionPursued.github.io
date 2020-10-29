@@ -134,8 +134,8 @@
                     this.y += this.yVel
                  
                         if(this.isOnGround(0,0)){
-                            this.y -= this.yVel*1.1;
-                            this.yVel = 0;                          
+                            this.y -= this.yVel * 1;
+                            this.yVel = this.yVel * 0.25;                          
                             return
                         } else {
                             this.yVel += 0.5;   

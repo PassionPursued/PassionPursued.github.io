@@ -24,6 +24,7 @@
             top: 0;
             width: 100%;
             box-shadow: 0px -2.5px 10px 5px #111;
+            z-index: 1;
         }
 
         .li {
@@ -103,6 +104,7 @@
         }
 
     </style>
+
 </head>
 <body>
     <ul class="ul">
@@ -174,7 +176,7 @@
         I think I'm still the same about of intrested in this topic, I'm still just as intrested as I had been before.
         <br /><br><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <h1> My Time Schedule</h1>
-        <table style="box-shadow: grey 10px 10px 50px;">
+        <table style="box-shadow: grey 10px 10px 50px;" class="timeschedule">
             <tr style="background-color: #1155cc; color:white">
                 <th></th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th>
             </tr>
@@ -213,6 +215,19 @@
         <br /><br /><br />
 
     </div>
-
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+        
+        var slideUp = {
+            distance: '100%',
+            origin: 'bottom',
+            opacity: 0.01
+        };
+        ScrollReveal().reveal('.editor', slideUp);
+        ScrollReveal().reveal('.timeschedule', slideUp);
+        ScrollReveal().reveal('h2', slideUp);
+        ScrollReveal().reveal('h1', slideUp);
+        ScrollReveal().reveal('table, td, tr, th', slideUp);
+    </script>
 </body>
 </html>
