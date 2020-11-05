@@ -1,4 +1,17 @@
-# PassionPursued.github.io
-for Chanal 50
+# PassionPursued
 
-I made this for a school project
+I made this because haha funny
+hehehe
+
+- [ ]
+- [ ] 
+- [ ]
+FUNNY GAMING MOMENT
+- - -
+```js
+class gaming{
+  constructor(){
+  this.funny = true 
+}
+}
+
