@@ -3,15 +3,15 @@
 I made this because haha funny
 hehehe
 
-- [ ]
-- [ ] 
-- [ ]
-FUNNY GAMING MOMENT
+- [ ] JF9isdh9fi
+- [ ] fsdoikfjs09 mifd sjidf9
+- [x] FUNNY GAMING MOMENT
 - - -
 ```js
 class gaming{
   constructor(){
   this.funny = true 
+  }
 }
-}
+```
 
